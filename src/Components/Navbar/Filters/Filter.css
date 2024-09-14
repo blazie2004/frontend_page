@@ -1,0 +1,28 @@
+.Filters {
+    margin-left: 105.09px;
+    display: flex;
+    gap: 3rem;
+}
+
+.logo {
+    margin-bottom: 0;
+}
+
+.logo-wrapper {
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    border-bottom: 6px solid transparent; /* Default invisible border */
+  /* Rounded bottom corners */
+    transition: border-bottom 0.3s ease; /* Smooth transition */
+}
+
+.logo-wrapper:hover {
+    border-bottom: 6px solid darkgrey; /* Thicker grey border on hover */
+      ; /* Ensures the bottom border remains rounded */
+}
+
+.text-prop {
+    color: grey;
+    font-weight: 600;
+}

@@ -1,0 +1,91 @@
+.spacer{
+    width: 1440px;
+height: 6px;
+top: 117.61px;
+left: 1px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.random-title{
+    width: 310px;
+height: 30px;
+margin-top: 20px;
+margin-left: 104px;
+gap: 0px;
+opacity: 0px;
+font-weight: 600;
+color: rgb(92, 88, 88);
+
+}
+.lining-2{
+    margin-left: 39.98px;
+    width: 1411px ;
+    height: 0.5px;
+    border: 0.01px solid  rgb(224, 220, 220);
+    margin-top: 18px;
+    
+}
+.export-wrapper{
+    gap:2rem;
+    display: flex;
+    margin-right: 5rem;
+    margin-top:10px;
+    margin-bottom: 10px;
+
+}
+.secondary-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    border: 0.5px solid rgb(209, 206, 206);
+    height: 42px;
+    width: 95px;
+    color: rgb(91, 87, 87);
+    border-radius: 8px;
+}
+
+.share {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    flex-direction: row;
+    border: 0.5px solid rgb(209, 206, 206);
+    height: 42px;
+    width: 42px;
+    color: rgb(91, 87, 87);
+    border-radius: 50%;
+}
+
+.timeline {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    flex-direction: row;
+    border: 0.5px solid rgb(209, 206, 206);
+    height: 42px;
+    width: 42px;
+    color: rgb(91, 87, 87);
+    border-radius: 50%;
+}
+.filter:active {
+    color: blue;
+     /* Optionally, change the text color */
+}
+
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ffffff;
+    margin: 1em 0;
+    padding: 0;
+}

@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Navbar() {
     return (
-        <div className="navbar-container">
+        <div className="navbar-container display-flex">
             <div className="Logo-wrapper">
                 <img src={logo} alt="Logo" />
             </div>
@@ -22,7 +22,12 @@ function Navbar() {
                 </div>
                 <button className="button">Search</button>
             </div>
+          
+            <button className="apply-btn"> Apply for Trademark</button>
+            
         </div>
+
+        
     );
 }
 
